@@ -1,28 +1,7 @@
-% L_ramjet = 3.15; % Ramjet Length [m]
-% L = 4.75; % Total Length [m]
-% Data.AXIBOD.TNOSE    = 'OGIVE';
-% 
-% Data.AXIBOD.LNOSE     = 1.667*d;
-% Data.AXIBOD.DNOSE     = d;
-% Data.AXIBOD.LCENTR    = L_ramjet - Data.AXIBOD.LNOSE;
-% Data.AXIBOD.DCENTR    = d;
-% Data.AXIBOD.LAFT      = L-L_ramjet;
-% Data.AXIBOD.DAFT      = 0.16;
-% Data.AXIBOD.TAFT      = 'OGIVE';
-% % For Booster 
-% if flag.booster
-%     % פונקציה של כפיר
-%     L_skirt = 0.25;
-%     Data.AXIBOD.DAFT      = 0.254;
-%     Data = CreateBodyXR(Data,L_skirt);
-% %     Data.AXIBOD.NX   = ;
-% %     Data.AXIBOD.X    = ;
-% %     Data.AXIBOD.R    = ;
-% end
 function [Data] = CreateBodyXR(Data,Ls)
 % This function creates geomrty input as X,R vectors
-
-Lr  = Data.AXIBOD.LCENTER+Data.AXIBOD.LNOSE;   %[m]
+% Kiffy
+Lr  = Data.AXIBOD.LCENTR + Data.AXIBOD.LNOSE;   %[m]
 Lt  = Data.AXIBOD.LAFT+Lr;    %[m]
 % Ls  = 0.250;  %[m]
 Dr  = Data.AXIBOD.DNOSE; %[m]
