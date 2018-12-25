@@ -1,6 +1,6 @@
 function [Data] = CreateBodyXR(Data,Ls)
 % This function creates geomrty input as X,R vectors
-% Kiffy nusdkasjdsakd
+% Kiffy is gay
 Lr  = Data.AXIBOD.LCENTR + Data.AXIBOD.LNOSE;   %[m]
 Lt  = Data.AXIBOD.LAFT+Lr;    %[m]
 % Ls  = 0.250;  %[m]
