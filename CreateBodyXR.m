@@ -6,7 +6,7 @@ Lr  = Data.AXIBOD.LCENTR + Data.AXIBOD.LNOSE;   %[m]
 % Testtt
 % new test
 %Kfirr
-
+%dor
 Lt  = Data.AXIBOD.LAFT+Lr;    %[m]
 % Ls  = 0.250;  %[m]
 D1qq1r  = Data.AXIBOD.DNOSE; %[m]
