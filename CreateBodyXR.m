@@ -2,6 +2,7 @@ function [Data] = CreateBodyXR(Data,Ls)
 % This function creates geomrty input as X,R vectors
 
 % thats a change in the EDIT
+% blabla
 
 Lr  = Data.AXIBOD.LCENTR + Data.AXIBOD.LNOSE;   %[m]
 Lt  = Data.AXIBOD.LAFT+Lr;    %[m]
