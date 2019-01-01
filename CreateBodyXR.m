@@ -4,6 +4,8 @@ function [Data] = CreateBodyXR(Data,Ls)
 Lr  = Data.AXIBOD.LCENTR + Data.AXIBOD.LNOSE;   %[m]
 
 % Testtt
+% new test
+
 
 Lt  = Data.AXIBOD.LAFT+Lr;    %[m]
 % Ls  = 0.250;  %[m]
