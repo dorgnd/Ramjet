@@ -2,6 +2,9 @@ function [Data] = CreateBodyXR(Data,Ls)
 % This function creates geomrty input as X,R vectors
 % new change in MASTER
 Lr  = Data.AXIBOD.LCENTR + Data.AXIBOD.LNOSE;   %[m]
+
+% Testtt
+
 Lt  = Data.AXIBOD.LAFT+Lr;    %[m]
 % Ls  = 0.250;  %[m]
 D1qq1r  = Data.AXIBOD.DNOSE; %[m]
