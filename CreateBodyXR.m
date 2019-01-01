@@ -3,6 +3,7 @@ function [Data] = CreateBodyXR(Data,Ls)
 
 % thats a change in the EDIT
 % blabla
+% tsuki hahomo!!!
 
 Lr  = Data.AXIBOD.LCENTR + Data.AXIBOD.LNOSE;   %[m]
 Lt  = Data.AXIBOD.LAFT+Lr;    %[m]
